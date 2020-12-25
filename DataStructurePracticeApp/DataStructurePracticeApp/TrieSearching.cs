@@ -6,7 +6,16 @@ namespace DataStructurePracticeApp
 {
     class TrieSearching
     {
-        public IList<IList<string>> SuggestedProducts(string[] products, string searchWord)
+        public IList<IList<string>> Execute()
+        {
+            string[] products = { "mobile", "mouse", "moneypot", "monitor", "mousepad" };
+            string searchWord = "mouse";
+
+            return SuggestedProducts(products, searchWord);
+        }
+
+
+        private IList<IList<string>> SuggestedProducts(string[] products, string searchWord)
         {
 
             Array.Sort(products);
