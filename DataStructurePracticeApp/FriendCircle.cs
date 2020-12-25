@@ -30,6 +30,7 @@ namespace DataStructurePracticeApp
         {
             int[][] M = new int[4][];
 
+
             M[0] = new int[] { 1, 0, 0, 1 };
             M[1] = new int[] { 0, 1, 1, 0 };
             M[2] = new int[] { 0, 1, 1, 1 };
